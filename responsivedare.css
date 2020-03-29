@@ -51,7 +51,7 @@ header {
   color: white;
   font-family: fantasy;
   font-size: 2px;
-  display:block;
+  display:inline;
   transition:all 3s;
 }
 
