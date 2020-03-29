@@ -22,13 +22,13 @@ header {
 
 .header-left h1{
   font-family: emoji;
-  font-size: 20px;
+  font-size: 5px;
   font-weight: bold;
   float:left;
   color:black;
   margin-right: 0px;
   margin-left: -10px
-  padding:0px 25px;
+  padding:0px 5px;
   margin-top: -3px;
   margin-bottom: 10px;
 
