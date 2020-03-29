@@ -1,0 +1,49 @@
+@media all and (max-width: 670px) {
+    
+    
+.header-logo {            
+ float: left;            
+ font-size: 20px;
+ color:whitesmoke
+ padding: 20px 40px;  
+ border-bottom: 5px solid #dee7ec;
+  
+ }            
+
+.message-wrapper {
+  margin-top: -40px;
+  margin-right: 50px;
+  float:right;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size:40px;
+  
+}
+
+
+.contents-item {
+  float: left;
+  margin-right:50px;
+  margin-left: 20px;
+  
+}
+
+.contents-item1 {
+  float: left;
+  margin-right:100px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+  font-size:24px; 
+}
+
+
+.contact-form p{
+    font-family: inherit;
+    font-size:20px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+}

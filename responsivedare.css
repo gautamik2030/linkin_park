@@ -1,0 +1,78 @@
+@media all and (max-width: 670px) {
+  
+    
+header {
+  position:fixed;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(105,105,105,0.9);
+}
+
+.logo {
+  width: 60px;
+  height:40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 60px;
+}
+
+.header-left  {
+  float: left;
+}
+
+.header-left h1{
+  font-family: emoji;
+  font-size: 20px;
+  font-weight: bold;
+  float:left;
+  color:black;
+  margin-right: 5px;
+  margin-left: 10px
+  padding:0px 25px;
+  margin-top: -25px;
+  margin-bottom: 10px;
+
+}
+
+    
+   .menu-icon {
+    display:block;
+  }   
+    
+    .mySlides {
+  height: 500px;
+  background-size: cover;
+}
+
+    
+    
+  footer {
+    text-align: left;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+    
+  .top-wrapper {
+    text-align: center;
+  }
+  
+  /* Add CSS for header-right */
+ .header-center {
+   display:none
+ } 
+  
+  /* Add CSS for menu-icon */
+
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

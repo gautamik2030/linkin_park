@@ -1,0 +1,55 @@
+@media all and (max-width: 670px) {
+ 
+    
+    
+.header-left h1{
+  font-family: sans-serif;
+  font-size: 20px;
+  color:white;
+  margin-right: 30px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+    padding-top: 25px;
+  padding-bottom:20px;
+  letter-spacing: 0.1px;
+    
+  font-weight: normal;
+}
+
+.mySlides {
+  height: 350px;
+  width:350px;
+  padding: 0px;
+  margin-left:15px;
+ }
+
+    
+
+.message-wrapper {
+  margin-top: -75px;
+    margin-right: 5px;
+  float:right;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  text-align: center;
+    font-size:40px;
+    
+}
+
+.message {
+  color:white;
+  padding: 5px 10px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 7px darkgrey;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+    
+}

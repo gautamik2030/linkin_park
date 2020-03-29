@@ -1,0 +1,75 @@
+
+body {
+  font-family: "Lucida Grande";
+  background-color: dimgrey;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+header {
+    margin-top: -40px;
+  position:relative;
+  height: 120px;
+  width: 100%;
+  background-color: black;
+}
+
+.header-left h1{
+  font-family: sans-serif;
+  font-size: 50px;
+  color:white;
+  margin-right: 30px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+    padding-top: 25px;
+  padding-bottom:20px;
+  letter-spacing: 0.1px;
+    
+  font-weight: normal;
+}
+
+section{
+  margin-top:10px;
+  
+}
+.mySlides {
+  height: 250px;
+  width:250px;
+  padding: 0px;
+  margin-left:10px;
+ }
+
+
+
+.message-wrapper {
+  margin-top: -95px;
+    margin-right: 10px;
+  float:right;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  text-align: center;
+    font-size:40px;
+    
+}
+
+.message {
+  color:white;
+  padding: 15px 30px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 7px darkgrey;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
