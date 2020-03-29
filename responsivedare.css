@@ -16,7 +16,7 @@
   color: white;
   font-family: fantasy;
   font-size: 2px;
-  display:initial;
+  display:inherit;
   transition:all 3s;
 }
     
