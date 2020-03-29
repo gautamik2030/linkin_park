@@ -1,5 +1,24 @@
 @media all and (max-width: 670px) {
   
+  
+.header1-item {
+  float: left;
+  opacity=0.1;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: black;
+  /* Change the transition property */
+  line-height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  font-family: fantasy;
+  font-size: 2px;
+  display:initial;
+  transition:all 3s;
+}
     
 header {
   position:fixed;
@@ -36,24 +55,6 @@ header {
 
     
   
-.header1-item {
-  float: left;
-  opacity=0.1;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  background-color: black;
-  /* Change the transition property */
-  line-height: 45px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: white;
-  font-family: fantasy;
-  font-size: 2px;
-  display:inline;
-  transition:all 3s;
-}
 
     
     .mySlides {
