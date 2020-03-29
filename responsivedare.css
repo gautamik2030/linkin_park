@@ -22,13 +22,13 @@ header {
 
 .header-left h1{
   font-family: emoji;
-  font-size: 5px;
+  font-size: 20px;
   font-weight: bold;
   float:left;
   color:black;
   margin-right: 0px;
   margin-left: -10px
-  padding:0px 5px;
+  padding:0px 25px;
   margin-top: -3px;
   margin-bottom: 10px;
 
@@ -36,10 +36,10 @@ header {
 
     
   
-.header-center {
+.header1-item {
   float: left;
-  margin-left: 10px;
-  margin-right: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
   margin-top: 10px;
   margin-bottom: 0px;
   background-color: black;
@@ -49,7 +49,7 @@ header {
   padding-right: 5px;
   color: white;
   font-family: fantasy;
-  font-size: 5px;
+  font-size: 2px;
   display:block;
   transition:all 3s;
 }
