@@ -1,6 +1,8 @@
 @media all and (max-width: 670px) {
  
-    
+ .header{
+   height: 90px;
+ }
     
 .header-left h1{
   font-family: sans-serif;
@@ -26,7 +28,7 @@
     
 
 .message-wrapper {
-  margin-top: -75px;
+  margin-top: -55px;
     margin-right: 5px;
   float:right;
   border-bottom: 1px solid #eee;
