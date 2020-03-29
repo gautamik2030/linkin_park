@@ -1,19 +1,16 @@
 @media all and (max-width: 670px) {
  
-header {
-  height: 120px;
-} 
+    
     
 .header-left h1{
   font-family: sans-serif;
-  font-size: 40px;
+  font-size: 20px;
   color:white;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-left: 5px;
   margin-bottom: 15px;
- margin-top: 20px;
-    padding-top: 25px;
-  padding-bottom:20px;
+    padding-top: 15px;
+  padding-bottom:10px;
   letter-spacing: 0.1px;
     
   font-weight: normal;
@@ -29,7 +26,7 @@ header {
     
 
 .message-wrapper {
-  margin-top: -25px;
+  margin-top: -55px;
     margin-right: 5px;
   float:right;
   border-bottom: 1px solid #eee;
@@ -49,7 +46,7 @@ header {
 
 .message:active {
   position: relative;
-  top: 7px;
+  top: 5px;
   box-shadow: none;
 }
 
