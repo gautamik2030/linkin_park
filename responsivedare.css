@@ -36,7 +36,7 @@ header {
 
     
   
-.header-center a {
+.header-center {
   float: left;
   margin-left: 10px;
   margin-right: 5px;
@@ -74,14 +74,6 @@ header {
   .top-wrapper {
     text-align: center;
   }
-  
-  /* Add CSS for header-right */
- .header-center {
-   display:none
- } 
-  
-  /* Add CSS for menu-icon */
-
   
   .top-wrapper h1 {
     font-size: 24px;
