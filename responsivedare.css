@@ -11,9 +11,9 @@ header {
 .logo {
   width: 55px;
   height:40px;
-  margin-top: 15px;
-  margin-bottom: 5px;
-  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
 }
 
 .header-left  {
@@ -26,35 +26,30 @@ header {
   font-weight: bold;
   float:left;
   color:black;
-  margin-right: 5px;
-  margin-left: 10px
+  margin-right: 0px;
+  margin-left: 5px
   padding:0px 25px;
-  margin-top: -5px;
+  margin-top: -3px;
   margin-bottom: 10px;
 
 }
 
     
-   .menu-icon {
-    display:block;
-  }   
-  
-  
   
 .header-center a {
   float: right;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
   margin-bottom: 0px;
   background-color: black;
   /* Change the transition property */
   line-height: 45px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   color: white;
   font-family: fantasy;
-  font-size: 10px;
+  font-size: 5px;
   display:block;
   transition:all 3s;
 }
@@ -95,5 +90,6 @@ header {
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+    margin-bottom:30px;
   }
 }
