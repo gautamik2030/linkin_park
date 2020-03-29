@@ -9,9 +9,9 @@ header {
 }
 
 .logo {
-  width: 60px;
+  width: 55px;
   height:40px;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 5px;
   margin-left: 60px;
 }
@@ -29,7 +29,7 @@ header {
   margin-right: 5px;
   margin-left: 10px
   padding:0px 25px;
-  margin-top: -25px;
+  margin-top: -5px;
   margin-bottom: 10px;
 
 }
@@ -38,6 +38,27 @@ header {
    .menu-icon {
     display:block;
   }   
+  
+  
+  
+.header-center a {
+  float: right;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: black;
+  /* Change the transition property */
+  line-height: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-family: fantasy;
+  font-size: 10px;
+  display:block;
+  transition:all 3s;
+}
+
     
     .mySlides {
   height: 500px;
