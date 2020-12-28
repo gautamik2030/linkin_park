@@ -1,3 +1,11 @@
+<?php
+require_once('connect.php'); // Database connection file
+require_once('functions.php');  // PHP functions file
+$page_id = 3;
+$visitor_ip = $_SERVER['REMOTE_ADDR']; // stores IP address of visitor in variable
+add_view($conn, $visitor_ip, $page_id);
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -32,13 +40,18 @@
           <h1><pre class="tab1">   LINKIN PARK</pre></h1>
 
         </div>
-        
+        <div>
+  <?php
+  $total_website_views = total_views($conn, $page_id); // Returns total website views
+  echo "<strong>Website Views:</strong> " . $total_website_views;
+  ?>
+</div>
       <div class="header-center">
         <a href="#opening" class="header1-item">Contact</a>
         
-       <a href="Tour.html" class="header1-item">Music</a>
+       <a href="Tour.php" class="header1-item">Music</a>
      
-       <a href="Band.html" class="header1-item">Band Members</a>
+       <a href="Band.php" class="header1-item">Band Members</a>
      
           </div>
   
